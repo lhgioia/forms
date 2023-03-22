@@ -1,1 +1,15 @@
 /* form styles */
+body {
+  display: flex;
+}
+
+.sidebar {
+  background: url("./chess.jpg");
+  width: 300px;
+}
+
+#logo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 100px;
+}
