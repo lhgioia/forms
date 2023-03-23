@@ -15,9 +15,12 @@
   </head>
   <body>
     <div id="sidebar">
-      <div id="logoContainer">
-        <img id="logoPic" src="./logo2.png" alt="c5 logo" />
-        <div id="logo">c5</div>
+      <div id="logoContainerColumn">
+        <div id="logoContainerRow">
+          <img id="logoPic" src="./logo2.png" alt="c5 logo" />
+          <div id="logo">c5</div>
+        </div>
+        <div id="logo-description">Accounting Firm Exchange</div>
       </div>
       <h6 id="sidebar-caption">
         Photo by <a href="https://unsplash.com/@andyadcon">De an Sun</a> on
@@ -36,19 +39,19 @@
       <form id="form-div" action="">
         <div class="input-div">
           <label for="first-name">FIRST NAME</label>
-          <input type="text" id="first-name" />
+          <input type="text" id="first-name" placeholder="John" />
         </div>
         <div class="input-div">
           <label for="last-name">LAST NAME</label>
-          <input type="text" id="last-name" />
+          <input type="text" id="last-name" placeholder="Dutton" />
         </div>
         <div class="input-div">
           <label for="email">EMAIL</label>
-          <input type="text" id="email" />
+          <input type="email" id="email" />
         </div>
         <div class="input-div">
           <label for="phone">PHONE NUMBER</label>
-          <input type="text" id="phone" />
+          <input type="phone" id="phone" />
         </div>
         <div class="input-div">
           <label for="password">PASSWORD</label>
@@ -61,7 +64,7 @@
       </form>
       <div id="submission">
         <button>Create Account</button>
-        <h3>Already have an account? <a id="login" href="">Log in</a></h3>
+        <h4>Already have an account? <a id="login" href="">Log in</a></h4>
       </div>
     </div>
   </body>
